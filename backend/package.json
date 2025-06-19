@@ -8,7 +8,11 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["bug-tracker", "express", "mongodb"],
+  "keywords": [
+    "bug-tracker",
+    "express",
+    "mongodb"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

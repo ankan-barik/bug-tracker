@@ -27,8 +27,8 @@ const Index = () => {
   const features = [
     {
       icon: Kanban,
-      title: "AI-Powered Kanban",
-      description: "Intelligent boards that learn from your workflow patterns and suggest optimizations.",
+      title: "Kanban Board",
+      description: "Boards that learn from your workflow patterns and suggest optimizations.",
       gradient: "from-blue-500 to-cyan-500",
       bgGradient: "from-blue-500/20 to-cyan-500/20",
       color: "text-blue-400"
@@ -177,8 +177,8 @@ const Index = () => {
               
               {/* Subtitle */}
               <p className="text-2xl text-gray-300 mb-12 leading-relaxed max-w-4xl mx-auto">
-                Experience next-generation project management with AI-powered insights, 
-                quantum-speed performance, and an interface designed for tomorrow's developers.
+                Experience next-generation project management with lightning-fast performance, intelligent automation, and a cutting-edge interface built for tomorrow's developers.
+
               </p>
               
               {/* CTA Buttons */}
@@ -251,8 +251,8 @@ const Index = () => {
                   Everything?
                 </span>
               </h2>
-              <p className="text-blue-100 text-xl mb-12 max-w-3xl mx-auto leading-relaxed">
-                Join the revolution. Experience the future of development workflows today.
+              <p className="text-blue-100 text-xl mb-12 max-w-4xl mx-auto leading-relaxed">
+                Join the revolution. Embrace the evolution of development workflows and unlock the future - today.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -288,10 +288,10 @@ const Index = () => {
             
             <div className="border-t border-white/10 pt-8">
               <p className="text-gray-400 text-lg mb-2">
-                © 2024 TrackZen. Engineered for the future of development.
+                © 2025 TrackZen. Engineered for the future of development.
               </p>
               <p className="text-gray-500">
-                Powered by quantum computing and designed for tomorrow's developers.
+                 Designed for tomorrow's developers.
               </p>
             </div>
           </div>
