@@ -36,7 +36,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Configure axios defaults
-axios.defaults.baseURL = 'http://localhost:5001/api';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL + '/api';
 axios.defaults.withCredentials = true;
 
 // Add request interceptor to include token
