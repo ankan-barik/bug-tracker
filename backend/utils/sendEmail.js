@@ -7,7 +7,7 @@ const sendEmail = async (options) => {
     console.log('Subject:', options.subject);
 
     // Create transporter
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || 'smtp.gmail.com',
       port: parseInt(process.env.SMTP_PORT) || 587,
       secure: false, // false for 587, true for 465
