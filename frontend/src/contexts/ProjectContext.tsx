@@ -46,22 +46,7 @@ export const useProject = () => {
 
 export const ProjectProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [projects, setProjects] = useState<Project[]>([
-    {
-      id: '1',
-      title: 'E-commerce Platform',
-      description: 'Building a modern e-commerce platform with React and Node.js',
-      teamMembers: ['john@example.com', 'jane@example.com'],
-      createdAt: new Date().toISOString(),
-      owner: 'john@example.com'
-    },
-    {
-      id: '2',
-      title: 'Mobile App Backend',
-      description: 'REST API for mobile application',
-      teamMembers: ['alice@example.com', 'bob@example.com'],
-      createdAt: new Date().toISOString(),
-      owner: 'alice@example.com'
-    }
+    
   ]);
 
   const [issues, setIssues] = useState<Issue[]>([
