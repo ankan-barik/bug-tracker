@@ -315,7 +315,7 @@ const Register = () => {
       <div className="relative z-20 w-full max-w-sm">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-light text-white mb-8">Sign Up</h2>
+          <h2 className="text-4xl font-bold text-pink-400 mb-8">TrackZen Onboard</h2>
         </div>
 
         {/* Error Message */}

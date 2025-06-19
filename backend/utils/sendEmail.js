@@ -23,7 +23,7 @@ const sendEmail = async (options) => {
     // Test connection first
     console.log('Testing SMTP connection...');
     await transporter.verify();
-    console.log('✅ SMTP connection verified');
+    console.log(' SMTP connection verified');
 
     // Define email options
     const mailOptions = {
@@ -38,12 +38,12 @@ const sendEmail = async (options) => {
     // Send email
     const info = await transporter.sendMail(mailOptions);
 
-    console.log('✅ Email sent successfully!');
+    console.log(' Email sent successfully!');
     console.log('Message ID:', info.messageId);
 
     return info;
   } catch (error) {
-    console.error('❌ Email send error:', error);
+    console.error(' Email send error:', error);
     throw new Error(`Email sending failed: ${error.message}`);
   }
 };

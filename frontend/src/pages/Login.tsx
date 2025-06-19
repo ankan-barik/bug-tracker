@@ -282,8 +282,8 @@ const Login = () => {
       <div className="relative z-20 w-full max-w-sm">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-light text-white mb-8">
-            {showForgotPassword ? "Reset Password" : "Welcome Back"}
+          <h2 className="text-4xl font-bold text-pink-400 mb-8">
+            {showForgotPassword ? "Reset Your Password" : "Welcome To TrackZen"}
           </h2>
           {!showForgotPassword && (
             <p className="text-white/70 text-sm">
